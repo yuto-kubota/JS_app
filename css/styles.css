@@ -1,5 +1,5 @@
 body{
-  background: #D8D8D8; 
+  background: #D8D8D8;
   margin: 0;
 }
 
@@ -15,7 +15,7 @@ body{
   flex-wrap: wrap; */
   height: 400px;
   width: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
   position: relative;
 }
 
@@ -40,7 +40,7 @@ body{
   background: white;
   width: 50px;
   height: 50px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   text-align: center;
   line-height: 50px;
   cursor: pointer;

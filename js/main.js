@@ -4,7 +4,7 @@
     const Number= document.getElementById('point');
     let currentNumber = 0;
 
-    const num = Math.floor(Math.random()*2);
+    const num = Math.floor(Math.random()*16);
 
 
 
@@ -56,7 +56,7 @@
     imgup(){
       const image = document.getElementById('image');
       this.img = document.createElement('img');
-      this.img.src = `jojo${num}.jpg`;
+      this.img.src = `images2/jojo${num}.jpg`;
       this.img.style.cssText = "width: 300px; height: 400px;";
       image.appendChild(this.img);
     }
