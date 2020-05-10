@@ -1,18 +1,19 @@
 body{
-  background: #D8D8D8;
+  background: black;
   margin: 0;
+  font-family: 'HanziPen TC',sans-serif;
 }
 
 #top{
   font-size: 50px;
   text-align: center;
-  color: blue;
-  background: yellow;
+  color: #B2BCFE;
+  background: #FEFDB2;
+  cursor: pointer;
+  user-select: none;
 }
 
 .container{
-  /* display: flex;
-  flex-wrap: wrap; */
   height: 400px;
   width: 300px;
   margin: 20px auto;
@@ -21,8 +22,6 @@ body{
 
 #image{
    height: 400px;
-  /* width: 300px; */
-  /* margin: 0 auto; */
   position: absolute;
 }
 
@@ -54,6 +53,7 @@ body{
   font-weight: bold;
   width: 300px;
   margin:20px auto;
+  color: white;
 }
 
 #btn{
