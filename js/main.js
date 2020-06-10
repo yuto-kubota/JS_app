@@ -91,7 +91,7 @@
          }else{
            alert("間違ってるぞ！！");
          }
-        top.textContent = "クリックしてリプレイ";
+        // top.textContent = "クリックしてリプレイ";
         Playing = false;
 
        });
@@ -123,9 +123,9 @@
      }
    }
 
-// -------------------------------------------------------------
+// 終わった後-------------------------------------------------------------
 
-  top.addEventListener('click', () => {
+  window.addEventListener('click', () => {
       if(Playing === true){
         return;
       }
